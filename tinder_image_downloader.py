@@ -13,7 +13,7 @@ def main():
         photos = user.get_photos()
         cnt = 0
         for photo in photos:
-            image_name = "downloads/" + user.name + "_" + str(cnt) + "_" + str(user.age) + "_" + user.id + ".jpg"
+            image_name = "data/downloads/" + user.name + "_" + str(cnt) + "_" + str(user.age) + "_" + user.id + ".jpg"
             urllib.request.urlretrieve(photo, image_name)
             cnt += 1
             print(image_name)
