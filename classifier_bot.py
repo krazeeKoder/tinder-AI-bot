@@ -11,7 +11,6 @@ def main():
     session = pynder.Session(XAuthToken=XAuthToken)
     session.update_location(48.193371, 16.366072)
     users = session.nearby_users()
-    print(users)
 
     for user in users:
         input("start profile")
