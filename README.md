@@ -42,3 +42,12 @@ Documentation on Tensorflow retraining can be found [here](https://github.com/te
 
 ## Installation
 
+facebook_tokenloader:
+
+    pip install webdriver-manager
+    pip install beautifulsoup4
+    pip install selenium
+    pip install matplotlib
+    pip install "tensorflow~=2.0"
+    pip install "tensorflow-hub[make_image_classifier]~=0.6"
+    python -m pip install git+https://github.com/charliewolf/pynder.git@5d2104d21cdea6ad07166a45c3e91864113d6e3e

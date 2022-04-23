@@ -7,7 +7,7 @@ current_profile_dir = 'current_profile/'
 
 
 def main():
-    XAuthToken = 'dcdf45fc-958e-43fe-abd9-8e0837d5d671'
+    XAuthToken = 'your token'
     session = pynder.Session(XAuthToken=XAuthToken)
     session.update_location(48.193371, 16.366072)
     users = session.nearby_users()
