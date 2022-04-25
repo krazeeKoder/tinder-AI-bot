@@ -23,6 +23,8 @@ Starts a Tinder session with your personal profile (XAuthToken needed) and assig
 
 Note that personalization is needed at this point: The script will only start classifying a new profile after user input. Furthermore, liking and disliking is commented out. Also actions like sending a message to a user we matched with could be implemented easily (see [Pynder](https://github.com/charliewolf/pynder)). Additionally, it is recommended to insert some random sleeps.
 
+Make sure to have a model.tflite in place when using.
+
 ## Retraining the Convolutional Neural Net
 
 I used the [TensorFlow mobilenet](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet) in this project and retrained it on the Tinder images which I downloaded and labeled.
@@ -41,8 +43,6 @@ To build the model you can use something like:
 Documentation on Tensorflow retraining can be found [here](https://github.com/tensorflow/hub/tree/master/tensorflow_hub/tools/make_image_classifier).
 
 ## Installation
-
-facebook_tokenloader:
 
     pip install webdriver-manager
     pip install beautifulsoup4
