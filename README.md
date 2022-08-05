@@ -1,7 +1,7 @@
 # tinder-AI-bot
 This is a prototype tinder bot capable of learning the user's preferences and then simulating the user's actions of liking and disliking other profiles on the Tinder platform. For this, an existing TensorFlow CNN has been retrained with images downloaded from Tinder. The code is **not production-ready**, so please feel free to check it out and adjust/personalize it.
 
-A detailed description and documentation of the project can be found [here]([https://google.com](https://essentialistengineer.com/how-to-build-a-tinder-bot-with-ai-and-python/)).
+A detailed description and documentation of the project can be found [here](https://essentialistengineer.com/how-to-build-a-tinder-bot-with-ai-and-python/).
 
 ## Usage
 
